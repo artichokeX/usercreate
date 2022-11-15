@@ -44,21 +44,46 @@ def insert_entry():
 
 def delete_entry():
     payload = api.fetch()
-    #print(payload.values())
+    users = []
+    for a in payload:
+        obj = (
+            f'{a[1]} {a[2]}',
+            a[0]
+        )
+        users.append(obj)
+
     mode = [
         inquirer.List
         (
             'mode', 
             message="Select a User: ", 
-            choices=payload.values(),
+            choices=users
         )
     ]
     answers = inquirer.prompt(mode)
-    for user in payload:
-        if answers.get("mode") == payload[user]:
-            #api.remove(id)
-            print(payload[user])
-
+    api.remove(answers.get('mode'))
 
 def list_db():
-    api.fetch()
+    payload = api.fetch()
+    users = []
+    for a in payload:
+        obj = (
+            f'{a[1]} {a[2]}',
+            {
+                'name': f'{a[1]} {a[2]}',
+                'id': a[0],
+                'dept': a[4]
+            }
+        )
+        users.append(obj)
+
+    mode = [
+        inquirer.List
+        (
+            'mode', 
+            message="Select a User: ", 
+            choices=users
+        )
+    ]
+    answers = inquirer.prompt(mode)
+    print(answers.get('mode'))

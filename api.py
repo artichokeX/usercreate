@@ -8,6 +8,7 @@ class ApiService:
     def __init__(self, db):
         self.db = db
         self.connection = sqlite3.connect(self.db)
+        self.connection.row_factory = sqlite3.Row
         self.cursor = self.connection.cursor()
         
     def database(self):
@@ -37,14 +38,11 @@ class ApiService:
 
     def fetch(self):
         fetch = "SELECT * FROM user"
-        self.connection.row_factory = sqlite3.Row
         array = self.cursor.execute(fetch)
-        print(self.cursor.fetchall())
-        payload = {}
+        payload = []
         for index,row in enumerate(array):
-            print(row)
             obj = list(row)
-            payload[index]=obj
+            payload.append(obj)
         return payload
 
     def quit(self):
