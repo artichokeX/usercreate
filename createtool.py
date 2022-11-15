@@ -44,20 +44,21 @@ def insert_entry():
 
 def delete_entry():
     payload = api.fetch()
+    #print(payload.values())
     mode = [
         inquirer.List
         (
             'mode', 
-            message="Select a mode: ", 
-            choices=[
-                "1. Insert Entry", 
-                "2. Delete Entry", 
-                "3. List Database", 
-                "4. Quit"],
+            message="Select a User: ", 
+            choices=payload.values(),
         )
     ]
     answers = inquirer.prompt(mode)
-    api.remove(id)
+    for user in payload:
+        if answers.get("mode") == payload[user]:
+            #api.remove(id)
+            print(payload[user])
+
 
 def list_db():
     api.fetch()
