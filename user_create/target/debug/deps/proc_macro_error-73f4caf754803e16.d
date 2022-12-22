@@ -1,0 +1,12 @@
+/home/sbx/Dev/user_create/target/debug/deps/proc_macro_error-73f4caf754803e16.rmeta: /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/lib.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/dummy.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/diagnostic.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/macros.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/sealed.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/imp/fallback.rs
+
+/home/sbx/Dev/user_create/target/debug/deps/libproc_macro_error-73f4caf754803e16.rlib: /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/lib.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/dummy.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/diagnostic.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/macros.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/sealed.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/imp/fallback.rs
+
+/home/sbx/Dev/user_create/target/debug/deps/proc_macro_error-73f4caf754803e16.d: /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/lib.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/dummy.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/diagnostic.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/macros.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/sealed.rs /home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/imp/fallback.rs
+
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/lib.rs:
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/dummy.rs:
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/diagnostic.rs:
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/macros.rs:
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/sealed.rs:
+/home/sbx/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-1.0.4/src/imp/fallback.rs:
